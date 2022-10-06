@@ -46,4 +46,8 @@ This directory is used to contain all the scripts as the shell script that can b
 This directory is used to contain the services called by the routers and those must use the controller funcions to alter the data from the database.
 
 ### Workers
-This directory is used to contain the files that can be called add-ons, such a cronworks or loggers.
+This directory is used to contain files that work in the underground such as cron works, loggers or backup systems.
+
+### .env file
+
+Create the .env file in the root folder to store all your environmental variables.
