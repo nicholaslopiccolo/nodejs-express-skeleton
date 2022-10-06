@@ -4,6 +4,7 @@ This repository want to be a ready to use nodeks+expressjs skeleton. You can for
 The app.js create a server with some basic best practices, security with helmet.js, the parsing with body-paser, express-session to store data on the user session.
 
 ## Structure of directories
+```
 project-name/
  |
  |-- Controllers/
@@ -13,7 +14,7 @@ project-name/
  |-- Scripts/
  |-- Services/
  |-- Workers/
-
+```
 ### Controllers
 This directory is used to manage data using database functions.
 
@@ -21,7 +22,7 @@ This directory is used to manage data using database functions.
 This directory id used to manage the connection to the database and can have sub-directories depending on the necessity of the database.
 
 eg. Mongo
-
+```
 project-name/
  |
  |-- Controllers/
@@ -30,6 +31,8 @@ project-name/
  |---- Schemes/
  .
  .
+ ```
+ 
 ### Public
 This directory is used to contain the front-end of your application, can be used as output-dir of your frontend build tool (eg. in a vue.config.js file).
 
