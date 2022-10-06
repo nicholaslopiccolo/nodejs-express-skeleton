@@ -1,13 +1,9 @@
 # Nodejs expressjs skeleton
-
-This repository want to be a ready to use nodeks+expressjs skeleton.
-You can fork it, npm/yarn install and be ready to create your node app.
+This repository want to be a ready to use nodeks+expressjs skeleton. You can fork it, npm/yarn install and be ready to create your node app.
 
 The app.js create a server with some basic best practices, security with helmet.js, the parsing with body-paser, express-session to store data on the user session.
 
 ## Structure of directories
-
-```
 project-name/
  |
  |-- Controllers/
@@ -17,7 +13,6 @@ project-name/
  |-- Scripts/
  |-- Services/
  |-- Workers/
-```
 
 ### Controllers
 This directory is used to manage data using database functions.
@@ -27,7 +22,6 @@ This directory id used to manage the connection to the database and can have sub
 
 eg. Mongo
 
-```
 project-name/
  |
  |-- Controllers/
@@ -36,8 +30,6 @@ project-name/
  |---- Schemes/
  .
  .
-```
-
 ### Public
 This directory is used to contain the front-end of your application, can be used as output-dir of your frontend build tool (eg. in a vue.config.js file).
 
@@ -49,5 +41,6 @@ This directory is used to contain all the scripts as the shell script that can b
 
 ### Services
 This directory is used to contain the services called by the routers and those must use the controller funcions to alter the data from the database.
+
 ### Workers
 This directory is used to contain the files that can be called add-ons, such a cronworks or loggers.
