@@ -1,5 +1,5 @@
 # Nodejs expressjs skeleton
-This repository want to be a ready to use nodeks+expressjs skeleton. You can fork it, npm/yarn install and be ready to create your node app.
+This repository want to be a ready to use nodejs+expressjs skeleton. You can fork it, npm/yarn install and be ready to create your node app.
 
 The app.js create a server with some basic best practices, security with helmet.js, the parsing with body-paser, express-session to store data on the user session.
 
@@ -19,7 +19,7 @@ project-name/
 This directory is used to manage data using database functions.
 
 ### Database
-This directory id used to manage the connection to the database and can have sub-directories depending on the necessity of the database.
+This directory is used to manage the connection to the database and can have sub-directories depending on the necessity of the database.
 
 eg. Mongo
 ```
